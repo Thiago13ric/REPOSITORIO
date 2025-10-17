@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curriculum vitae</title>
     <link rel="stylesheet" href="index.css">
     <meta name="description" content="REALIZANDO UN CV CON HTML Y CSS. EMPEZANDO 
     LA PROGRAMCION DESDE CERO.">

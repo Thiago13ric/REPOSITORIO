@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="REALIZANDO UN CV CON HTML Y CSS. EMPEZANDO 
+    LA PROGRAMCION DESDE CERO.">
+    <meta name="keywords" content="HTML, CSS, CURRICULUM, DISEÑO WEB, PROGRAMACION">
+    <meta name="author" content="RICARDO CARRASCO REYES">
+    <meta name="title" content="CURRICULUM VITAE">
+    <meta property="og:title" content="CURRICULUM VITAE">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="REALIZANDO UN CV CON HTML Y CSS. EMPEZANDO">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>RICARDO CARRASCO REYES</h1>
+    </header>
+    <main>
+        <section>
+            <article class="contact-info">
+                <h3>JUNIOR FRONTED DEVELOPER</h3>
+                <p>San Antonio 236 <br>Comas, Lima - Perú <br>
+                    (+51) 987 654 321 <br> ricartomas1998@gamil.com
+                </p>
+            </article>
+            <article class="skills">
+                <h3>Skills</h3>
+                <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive
+                    Web Design, <br>Technical Writing, Presentation Skills.
+                </p>
+            </article>
+            <article class="educacion">
+                <h3>Education</h3>
+                <p>Universidad Nacional de San Marcos <br>
+                    Bachelor of Systems Engineering<br>
+                    2014 - 2019
+            </article>
+            <article class="experience">
+                <h3>Experiencie</h3>
+                <p> Front-End/Mobile Developer <br>
+                    Capital Fintech<br>
+                    2020 - Present
+                    Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery <br>
+                    Managed front-end project requirements, schedules, and deadlines <br>
+                    Collaborated with back-end developers and web designers to improve usability
+                </p>
+            </article>
+            <article class="Languages">
+                <h3>Languages</h3>
+                <p>Spanish - Native <br>
+                    English - Intermediate <br>
+                    Portuguese - Intermediate
+                </p>
+            </article>
+            <article>
+                <h3>Hobbies</h3>
+                <p>Traveling, Reading, Music, Sports, Video Games.</p>
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>

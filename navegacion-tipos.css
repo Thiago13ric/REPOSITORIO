@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    max-width: 1024px;
+    min-width: 300px;
+    position: relative;
+    background-color: #c0dbe5;
+    margin: auto;
+}
+.nav1,.nav2, .nav3{
+    position: relative;
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: #b2b0cc;
+    border: 2px solid black;
+    margin: 10px 0px;
+    padding:5px ;
+}
+.menu1{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.menu1 a,.menu2 a{
+    padding: 8px;
+    border: 1px solid black;
+    background-color: #d9d7e9;
+    text-align: center;
+    margin-left: 10px;
+    flex:1
+}
+.menu1 a:hover, .menu2 a:hover{
+    background-color: lab(0% 0 0 / 0.747);
+    cursor: pointer;
+    color: white;
+}
+.menu2{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+/* Sistema de navegacion 2 */
+.menu2 a{
+    display: block;}
+#submenu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s 0.3s ease-out;
+}
+.menu2 li:hover #submenu{
+    visibility: visible;
+    z-index: 1;
+    top:58px;
+    opacity: 1;
+}#submenu a:hover{
+    background-color: lab(38.72% 59.89 44.84 / 0.747);
+    cursor: pointer;
+    color: white;
+}
+/* Sistema de navegacion 3 */
+.menu3{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-items: flex-start;
+    justify-content: center;;
+}
+.menu3 a{
+    display: block;
+    padding: 25px 20px;
+    background-color:black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transition: 0.5s 0.2s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+#red{
+    border-top: 8px solid rgb(236, 5, 5);
+}
+#yellow{
+    border-top: 8px solid rgb(153, 153, 7);
+}
+#green{
+    border-top: 8px solid rgb(12, 216, 12);
+}
+#blue{
+    border-top: 8px solid rgb(32, 32, 248);
+}
+
+.menu3 #red:hover {
+    background-color: rgb(236, 5, 5) ;
+}
+.menu3 #yellow:hover{
+    background-color:  rgb(153, 153, 7);
+}
+.menu3 #green:hover{
+    background-color:  rgb(12, 216, 12);
+}
+.menu3 #blue:hover{
+    background-color: rgb(32, 32, 248);
+}
